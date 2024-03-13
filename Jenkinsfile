@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/taylorw8'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/WTaylor8miami/225-lab3-2.git'                   // <------change this
-        KUBECONFIG = credentials('taylorw-test-credentials')                                             // <------change this
+        KUBECONFIG = credentials('taylorw8-test-credentials')                                             // <------change this
     }
 
     stages {
